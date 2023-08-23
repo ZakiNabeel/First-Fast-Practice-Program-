@@ -10,7 +10,9 @@ int main()
     cout<<"How many Hours did you work?";
     cin >> hours;
     cout<<"What was your pay for each hour?";
-    cin >> pay >> currency;
+    cin >> pay;
+    cout<< "Currency? ";
+    cin >> currency;
     Salary = pay * hours;
     cout <<"Your Salary is= " << Salary << currency;
     return 0;
