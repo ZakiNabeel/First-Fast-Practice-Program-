@@ -1,17 +1,14 @@
-# First-Fast-Practice-Program-
-It is about Hours of Work,Pay, Salary......
-
 #include<iostream>
 using namespace std;
 int main()
 {
-    int hours, pay, Salary;
+    double hours, pay, Salary;
     string currency;
-    cout<<"How many Hours did you work?";
+    cout<<"How many Hours did you work?\n";
     cin >> hours;
-    cout<<"What was your pay for each hour?";
+    cout<<"What was your pay for each hour?\n";
     cin >> pay;
-    cout<< "Currency? ";
+    cout<< "Currency?\n";
     cin >> currency;
     Salary = pay * hours;
     cout <<"Your Salary is= " << Salary << currency;
